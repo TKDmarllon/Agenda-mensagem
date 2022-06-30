@@ -2,15 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Contact;
 use Illuminate\Http\Request;
-use App\Http\Requests\ContactRequest;
 use App\Models\MessageContact;
 use Error;
-use Exception;
 use Illuminate\Http\JsonResponse;
-use PDOException;
-use Symfony\Component\HttpFoundation\JsonResponse as HttpFoundationJsonResponse;
 
 class MessageController extends Controller{
 
