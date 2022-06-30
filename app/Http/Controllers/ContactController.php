@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Contact;
-use Illuminate\Http\Request;
 use App\Http\Requests\ContactRequest;
 use Illuminate\Http\JsonResponse;
 
